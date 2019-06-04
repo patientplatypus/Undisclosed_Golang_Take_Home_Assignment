@@ -1,0 +1,12 @@
+version: '3'
+
+# Containers we are going to run
+services:
+  instance1: 
+    build:
+      context: .
+    tty: true
+  instance2:
+    build:
+      context: .
+    tty: true
